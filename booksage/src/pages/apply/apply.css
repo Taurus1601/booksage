@@ -1,0 +1,18 @@
+body 
+{
+    @apply bg-gradient-to-r from-blue-500 to-green-500;
+}
+.input
+{
+    @apply  w-80 h-10 rounded-xl border-0 bg-zinc-100 m-10;
+}
+
+.submit
+{
+    @apply block w-64 h-10 rounded-2xl border-0 bg-white shadow-xl shadow-gray-400 drop-shadow-sm text-yellow-600  hover:bg-blue-400 hover:text-white;
+}
+
+.heading
+{
+    @apply font-mono text-6xl;
+}

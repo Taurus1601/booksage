@@ -1,0 +1,46 @@
+
+body {
+    @apply m-0 p-0  ;
+    scrollbar-width: none;
+}
+
+
+.status 
+{
+    @apply relative text-base absolute left-[150vh] top-5 bg-slate-200 p-2 rounded-3xl inline-block text-black font-mono  cursor-pointer;
+}
+.section1
+{   scroll-snap-align: start;
+    @apply m-0 p-0  h-[100vh] w-[100vw] ; 
+    background-image: url("/image/blob-scene-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.section2
+{
+    @apply   h-[100vh] w-[100vw] ;
+    scroll-snap-align: start;
+    background-image: url("/image/wave-haikei-3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.text-over-svg {
+   
+    @apply relative text-3xl text-slate-300 font-mono ;
+    
+  }
+.head{
+    @apply  absolute top-56 left-[44%];
+
+
+}
+.heading{
+    @apply absolute text-9xl  text-white font-mono top-72 left-[23%];
+
+}
+.arrow{
+    @apply absolute text-6xl  top-[87vh] left-[49%]  animate-bounce ;
+}

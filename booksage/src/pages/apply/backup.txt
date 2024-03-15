@@ -1,0 +1,61 @@
+
+body {
+    @apply m-0 p-0;
+}
+.section {
+    background-image: url('/image/blob-scene-haikei.svg');
+    background-size: cover;
+    height:100vh;
+    margin-top: -210px;
+}
+
+
+
+/* Path: booksage/src/pages/apply/apply.js */
+.text-over-svg {
+   
+    @apply absolute text-3xl text-zinc-400 font-mono mt-56 ;
+
+    
+  }
+
+.heading{
+    @apply absolute text-9xl  text-white font-mono font-bold mt-80;
+    margin-top: 400px;
+
+}
+
+.arrow 
+{
+    @apply text-zinc-400 text-5xl  animate-bounce;
+    
+}
+
+
+
+-----------------------------------------
+
+import './home.css'
+import Apply from '@/pages/apply/apply';
+
+function Home() {
+  return (
+    <>
+    <div className='section'>
+      <center>
+        <h1 className='text-over-svg '>
+          Welcome to
+        </h1>
+        <h1 className=' heading'>
+          Book Sage
+        </h1>
+        <div className='arrow'>
+          ⌵
+        </div>
+      </center>
+    </div>
+    </>
+  )
+}
+
+export default Home;

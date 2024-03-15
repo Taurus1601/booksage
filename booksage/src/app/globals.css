@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components
+{
+  .buttonStyle
+  {
+    @apply bg-slate-500 rounded-xl p-2 
+  }
+}
